@@ -1,0 +1,41 @@
+*{margin: 0;
+  padding: 10px 0 ;
+  background-color: #2b00c7 
+ 
+ 
+ }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 500px;
+ 
+}
+.box {
+  border: 2px solid  black;
+}
+.red {
+  background-color: #FF4A4A;
+  flex: 1 1 150px;
+  height: 100px;
+}
+.blue {
+  background-color: #4ACFFF;
+  flex: 1 1 150px;
+  height: 100px;
+}
+.yellow {
+  background-color: #D4AF37;
+  flex: 1 1 150px;
+  height: 100px;
+}
+.white {
+  background-color: #58edebFF;
+  flex: 1 1 150px;
+  height: 100px;
+}
+.wide-white {
+  background-color: #16c76eff;
+  flex:  1 1 300px;
+  height: 100px;
+}
